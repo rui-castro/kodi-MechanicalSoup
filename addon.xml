@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.module.mechanicalsoup"
+       name="mechanicalsoup"
+       version="0.3.1"
+       provider-name="Rui Castro">
+    <requires>
+        <import addon="script.module.beautifulsoup4" version="4.4.1"/>
+    </requires>
+    <extension point="xbmc.python.module" library="lib"/>
+    <extension point="xbmc.addon.metadata">
+        <summary>A Python library for automating interaction with websites</summary>
+        <description>Packed for KODI from https://pypi.python.org/pypi/MechanicalSoup</description>
+        <license>MIT</license>
+        <platform>all</platform>
+        <source>https://github.com/rui-castro/kodi-MechanicalSoup</source>
+    </extension>
+</addon>
